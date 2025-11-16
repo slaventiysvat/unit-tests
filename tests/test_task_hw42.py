@@ -4,9 +4,9 @@ import pytest
 
 # --- make git-pycore-hw-04 importable without packaging ---
 ROOT = pathlib.Path(__file__).resolve().parents[2]  # .../GoITHomeworkPython
-HW06 = ROOT / "git-pycore-hw-06/task2"
-if str(HW06) not in sys.path:
-    sys.path.insert(0, str(HW06))
+HW04 = ROOT / "git-pycore-hw-04/task2"
+if str(HW04) not in sys.path:
+    sys.path.insert(0, str(HW04))
 
 from task2 import get_cats_info
 
